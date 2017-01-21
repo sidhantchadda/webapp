@@ -1,6 +1,6 @@
 var express = require('express');
 var path = require('path');
-var port = 8080;
+var port = 5000;
 var app = express();
 
 app.use(express.static(__dirname + '/build'));
@@ -11,5 +11,5 @@ app.get('*', function (request, response){
 
 
 app.listen(port, function () {
-  console.log('Example app listening on port 8080!')
+  console.log('Example app listening on port 5000!');
 })
