@@ -1,0 +1,16 @@
+.Image {
+	padding-top: 10px;
+	max-width: 250px;
+	max-height: 250px;
+	border-radius: 50%;
+}
+.About {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Text {
+	padding-top: 10px;
+	font-size: 18px;
+}

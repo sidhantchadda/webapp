@@ -1,0 +1,24 @@
+.Header {
+	background-color: #232728;
+	height: 40px;
+}
+.Elements {
+	list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.Link {
+	text-decoration: none;
+	color: white;
+}
+li {
+	display: inline;
+	color: white;
+    padding: 8px 16px;
+    width: 60px;
+}
+li:hover {
+	background-color: #87271b;
+    color: white;
+}
