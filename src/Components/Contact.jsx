@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import '../Css/Contact.css'
 class Contact extends Component {
 	render() {
-		var Data = {
+		const Data = {
 			"Name": "Sidhant Chadda",
 			"Email": "sidhantchadda@gmail.com",
 			"Phone": "(408)-799-6959",
