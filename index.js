@@ -3,10 +3,12 @@ var path = require('path');
 var port = process.env.PORT || 8080;
 var app = express();
 
-app.use(express.static(__dirname + '/build'));
+process.env.PWD = process.cwd();
+
+app.use(express.static(process.env.PWD + '/build'));
 
 app.get('*', function (request, response){
-	response.sendFile(path.resolve(__dirname, 'build', 'index.html'))
+	response.sendFile(path.resolve(process.env.PWD, 'build', 'index.html'))
 })
 
 
