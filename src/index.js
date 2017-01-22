@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Router, Route, browserHistory, IndexRoute} from 'react-router';
-import App from './App';
-import Project from './Projects';
-import About from './About';
-import Contact from './Contact';
-import './index.css';
+import App from './Components/App';
+import Project from './Components/Projects';
+import About from './Components/About';
+import Contact from './Components/Contact';
+import './Css/index.css';
 
 ReactDOM.render((
   <Router history={browserHistory}>

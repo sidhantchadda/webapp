@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './Github.css';
-import logo from './logo0.svg'
-import logo1 from './logo1.svg'
+import '../Css/Github.css';
+import logo from '../Imgs/logo0.svg'
+import logo1 from '../Imgs/logo1.svg'
 
 class Logo extends Component {
 	render() {

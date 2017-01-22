@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
-import Github from './Github.js'
-import Header from './Header.js'
+import '../Css/App.css';
+import Github from './Github.jsx'
+import Header from './Header.jsx'
 
 class App extends Component {
 

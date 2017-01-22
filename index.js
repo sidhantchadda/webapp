@@ -13,5 +13,5 @@ app.get('*', function (request, response){
 
 
 app.listen(port, function () {
-  console.log('Example app listening on port 8080!');
+  console.log('server listening on port  '+port);
 })

@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import './Post.css'
+import '../Css/Post.css'
 class Post extends Component {
 	render() {
 		let img = null;
 		if(this.props.img != null) {
 
 			img = <img src={this.props.img} className="Img" alt="Img" />
-			console.log('test');
 		}
 		return(
 			<div className="Post">
