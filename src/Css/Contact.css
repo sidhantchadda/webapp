@@ -1,17 +1,69 @@
-.Contact {
-	padding: 10px;
-}
+
 .Card {
-	width: 500px;
-	height: 200px;
-	background-color: white;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 5px;
+	padding-top: 10px;
+	font-family: Helvetica;
+	font-size: 20px;
+	color: white;
+	width: fill;
+	height: fill;
+	background-color: #1a2538;
 	font-size: 18px;
   	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 .Card:hover {
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.Content {
+	display: inline-block;
+
+}
+.text {
+	float: left;
+	font-size: 13px;
+	padding-bottom: 4px;
+	padding-top: 10px;
+}
+input {
+	width: 350px;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	height: 30px;
+	background-color: #445470;
+	color: white;
+	font-size: 15px;
+	border:none;
+	outline: none;
+	margin-bottom: 5px;
+}
+
+textarea {
+	background-color: #445470;
+	border: none;
+	outline: none;
+	color: white;
+	resize: none;
+	width: 350px;
+	height: 125px;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+	font-size: 13px;
+}
+
+button {
+	margin-top: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 70px;
+	padding-left: 70px;
+	font-family: Helvetica-light;
+	color: white;
+	background-color: #52a846;
+	border: none;
+	font-size: 20px;
 }

@@ -19,9 +19,39 @@ class Card extends Component {
 	render() {
 		return(
 			<div className="Card">
-				{this.props.data.Email}
-				<br />
-				{this.props.data.Phone}
+				<form name="contact" action="/contact" method="post">
+					<div className="Content">
+						<div className="text">
+							FIRST NAME
+						</div>
+						<br/>
+						<input type="text" name="fname" required/>
+						<br/>
+						<div className="text">
+							LAST NAME
+						</div>
+						<br/>
+						<input type="text" name="lname" required/>
+						<br/>
+
+						<div className="text">
+							EMAIL
+						</div>
+						<br />
+						<input type="text" name="email" autocomplete="off" required/>
+						<br />
+						<div className="text">
+							MESSAGE
+						</div>
+						<br />
+
+						<textarea name="message" required/>
+						<br />
+
+						<button type="submit" value="Submit">Send Message</button>
+					</div>
+
+				</form>
 			</div>
 		);
 	}
