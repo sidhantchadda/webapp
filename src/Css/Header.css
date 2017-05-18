@@ -1,5 +1,5 @@
 .Header {
-	background-color: #232728;
+	background-color: #4c595c;
 	height: 40px;
 }
 .Elements {
@@ -19,6 +19,6 @@ li {
     width: 60px;
 }
 li:hover {
-	background-color: #87271b;
+	background-color: #d15856;
     color: white;
 }

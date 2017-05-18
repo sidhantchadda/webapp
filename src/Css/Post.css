@@ -8,7 +8,7 @@
     text-align: left;
     margin-left: auto;
     margin-right: auto;
-    background-color: #0F434F;
+    background-color: #547b8c;
     color: white;
     margin-top: 20px;
     margin-bottom: 50px;
@@ -30,11 +30,14 @@
 .Img {
 	max-width: 100%;
     height: auto;
+
 }
 a {
     text-decoration: none;
     color: white;
 }
 .Text {
+    font-size: 18px;
+    margin-top: 8px;
 	padding: 2px;
 }
