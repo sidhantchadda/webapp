@@ -1,13 +1,18 @@
 {
-  "main.css": "static/css/main.24425430.css",
-  "main.css.map": "static/css/main.24425430.css.map",
-  "main.js": "static/js/main.02f1ab50.js",
-  "main.js.map": "static/js/main.02f1ab50.js.map",
+  "main.css": "static/css/main.e4c97a11.css",
+  "main.css.map": "static/css/main.e4c97a11.css.map",
+  "main.js": "static/js/main.6861acc6.js",
+  "main.js.map": "static/js/main.6861acc6.js.map",
+  "static/media/MyPQue.png": "static/media/MyPQue.52a94d10.png",
+  "static/media/blackbelt.jpg": "static/media/blackbelt.f8508d4d.jpg",
   "static/media/derivative.png": "static/media/derivative.7553e62d.png",
   "static/media/followers++.png": "static/media/followers++.9fb21936.png",
+  "static/media/icon_pin_alt.png": "static/media/icon_pin_alt.3fb3af4f.png",
+  "static/media/karate.jpg": "static/media/karate.69da0543.jpg",
   "static/media/logo0.svg": "static/media/logo0.0255bf2c.svg",
   "static/media/logo1.svg": "static/media/logo1.abac0a99.svg",
   "static/media/me.jpg": "static/media/me.de19626c.jpg",
   "static/media/minecraft.png": "static/media/minecraft.3c7d6b4e.png",
+  "static/media/readly.png": "static/media/readly.d4714740.png",
   "static/media/shortest.png": "static/media/shortest.c241f59c.png"
 }

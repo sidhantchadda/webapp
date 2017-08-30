@@ -1,0 +1,46 @@
+.Tutor {
+
+	padding: 10px;
+}
+.TutorCard {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	background-color: #e8e8e8;
+	text-align: left;
+	margin: auto;
+	max-width: 800px;
+	color: #33333C;
+	font-size: 18px;
+}
+.TutorHeading {
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+}
+.TutorTitle {
+	margin-bottom: 5px;
+	font-size: 25px;
+}
+.TutorImg {
+	display: inline;
+
+}
+.TutorLocation {
+	margin-left: 10px;
+	display: inline;
+}
+.TutorHeadingContainer {
+
+}
+.TutorDescription {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+.TutorLine {
+	border: 1px solid #d15856;
+}
+.TutorText {
+	font-family: "HelveticaNeue", Arial;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}

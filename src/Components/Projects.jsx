@@ -31,6 +31,18 @@ class Project extends Component {
 				'image': require('../Imgs/minecraft.png'),
 				'description': 'KitPvP is a minecraft server plugin that utilizes the bukkit api to build a structured kit based player vs player combat system inside minecraft. This project utilized my knowledge in data structures and algorithms to develop efficient server code.'
 			},
+			{
+				'title': 'Readly',
+				'link': 'https://github.com/cs408-readly/',
+				'image' : require('../Imgs/readly.png'),
+				'description': 'Readly is a news application that was built by a small team of Students at Purdue Univeristy. Readly utilizes the machine learning library keras to reccommend users news sources that they will likely be interested in.'
+			},
+			{
+				'title': 'MyPQue',
+				'link': 'https://github.com/koochi10/MyPQue',
+				'image': require('../Imgs/MyPQue.png'),
+				'description': 'MyPQue is a web application that allows students to virtually enqueue themselves into companies at career fairs instead of actually waiting in lines. Our algorithms optimizes queues under the hood in order to alleviate waiting times for large companies and enable students waiting to talk to companies that do not currently have any lines.'
+			}
 		];
 
 		let mapped = data.map((tableItem, i) => {
