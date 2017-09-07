@@ -7,12 +7,12 @@
 	border-width: 5px;
 }
 .About {
-	width: 400px;
+	max-width: 400px;
 	margin-left: auto;
 	margin-right: auto;
 }
 .Group {
-	display: inline-block;
+	
 }
 
 .Atext {
