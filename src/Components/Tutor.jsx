@@ -24,7 +24,7 @@ class Header extends Component {
 					Computer Science Student at Purdue University
 				</div>
 				<div className="TutorHeadingContainer">
-					<img className="TutorImg" src={location} />
+					<img className="TutorImg" src={location} alt=""/>
 					<div className="TutorLocation">
 						San Jose, CA 95138
 					</div>
