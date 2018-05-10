@@ -13,7 +13,6 @@ ReactDOM.render((
   	<Route component={App} path="/">
   		<IndexRoute component={Project} />
   		<Route component={About} path="about"/>
-  		<Route component={Contact} path="contact" />
   		<Route component={Tutor} path="tutor" />
   	</Route>
   </Router>
