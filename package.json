@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://koochi10.github.io/webapp",
   "devDependencies": {
     "gh-pages": "^1.1.0",
     "react-scripts": "0.7.0"

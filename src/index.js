@@ -8,9 +8,10 @@ import Contact from './Components/Contact';
 import Tutor from './Components/Tutor'
 import './Css/index.css';
 
+const baseUrl = process.env.PUBLIC_URL;
 ReactDOM.render((
   <Router history={browserHistory}>
-  	<Route component={App} path="/">
+  	<Route component={App} path={baseUrl+"/"}>
   		<IndexRoute component={Project} />
   		<Route component={About} path="about"/>
   		<Route component={Tutor} path="tutor" />
