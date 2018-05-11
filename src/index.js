@@ -11,8 +11,8 @@ import './Css/index.css';
 const baseUrl = process.env.PUBLIC_URL;
 ReactDOM.render((
   <Router history={browserHistory}>
-  	<Route component={App} path={baseUrl+"/"}>
-  		<IndexRoute component={Project} />
+  	<Route component={App} path="/">
+  		<IndexRoute component={Project} /> 	
   		<Route component={About} path="about"/>
   		<Route component={Tutor} path="tutor" />
   	</Route>

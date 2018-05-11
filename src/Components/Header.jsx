@@ -11,9 +11,9 @@ export default class Header extends Component {
 		return (
 			<div className="Header">
 				<ul className="Elements">
-					<Link to={baseUrl+"/"}  className="Link"><li>Projects</li></Link>
-					<Link to={baseUrl+"/about"} className="Link"><li>About me</li></Link>
-					<Link to={baseUrl+"/"} className="Link"><li onClick={redirect}>Resume</li></Link>
+					<Link to="/"  className="Link"><li>Projects</li></Link>
+					<Link to="/about" className="Link"><li>About me</li></Link>
+					<Link to="/" className="Link"><li onClick={redirect}>Resume</li></Link>
 				</ul>
 			</div>
 		);
